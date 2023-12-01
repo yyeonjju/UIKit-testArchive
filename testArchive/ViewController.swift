@@ -19,10 +19,29 @@ class ViewController: UIViewController {
     
     private lazy var uiView : UIView! = .init(frame: CGRect(x: 50, y: 50, width: 200, height: 200))
     
+//    func layoutIfNeeded() {
+//        button.transform = .init(rotationAngle:50)
+//    }
+    
+//    override func viewDidAppear (_ animated : Bool) {
+//        guard let button = button else {
+//            print("🍑🍑🍑🍑🍑 버튼 없음")
+//            return
+//        }
+//
+//        button.transform = .init(rotationAngle:50)
+//        super.viewDidAppear(true)
+//
+//    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        button.transform = .init(rotationAngle:50)
+//        button.transform = .init(rotationAngle:50) // 왜 안바뀌지?
+        uiView.transform = .init(rotationAngle:50) //uiView 잖아!!!!
+          
 //        // Do any additional setup after loading the view.
 //
 //        print("button.bounds => ",button.bounds)
@@ -50,6 +69,7 @@ class ViewController: UIViewController {
         ])
         uiView.translatesAutoresizingMaskIntoConstraints = false
         
+
         
 //        view.bounds.origin = CGPoint(x: 50, y: 200)
 //        print(secondView.bounds)
@@ -61,6 +81,12 @@ class ViewController: UIViewController {
         
     }
 
+    
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        print("🍑🍑🍑🍑🍑 버튼 누름")
+        button.transform = .init(rotationAngle:50)
+    }
+    
 
 }
 

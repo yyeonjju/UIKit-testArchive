@@ -29,7 +29,7 @@ class LandingViewController: UIViewController {
 //        List(lable: "6", description : "6번째입니다."),
 //        List(lable: "7", description : "7번째입니다.")
     ]
-    
+    private let myUserActivity: NSUserActivity = NSUserActivity(activityType: "heid.handoff")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,10 +44,19 @@ class LandingViewController: UIViewController {
 //            uiView.centerYAnchor.constraint(equalTo: view.centerYAnchor)
 //        ])
 //        uiView.translatesAutoresizingMaskIntoConstraints = false
+        setupUserActivity()
         
         setupTableView()
         setupTableViewConstraints()
         
+    }
+    func setupUserActivity() {
+        self.myUserActivity.title = "Heidi"
+        self.myUserActivity.isEligibleForSearch = true
+        self.myUserActivity.isEligibleForHandoff = true
+        self.myUserActivity.webpageURL = URL(string: "https://heidi-dev.tistory.com/")
+        self.userActivity = self.myUserActivity
+        self.userActivity?.becomeCurrent()
     }
     
 

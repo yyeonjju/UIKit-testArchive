@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>NSCameraUsageDescription</key>
-	<string>카메라 사용~~</string>
+	<string>카메라 사용</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>앨범 사용 권한?</string>
+	<string>앨범 사용</string>
+	<key>NSUserActivityType</key>
+	<string>heid.handoff</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

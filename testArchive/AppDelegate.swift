@@ -31,6 +31,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    
+    
+    //handoff 디버깅
+    func application(_ application: UIApplication, willContinueUserActivityWithType userActivityType: String) -> Bool {
+        print("🌸🌸🌸🌸🌸🌸🌸 Will continue user activity: \(userActivityType)")
+        return true
+    }
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        print("🌸🌸🌸🌸🌸🌸 Continue user activity: \(userActivity.activityType)")
+        // 필요한 작업 수행
+        return true
+    }
 
 }
 

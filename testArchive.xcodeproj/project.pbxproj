@@ -17,6 +17,7 @@
 		7D7FD1A72B0F377E00CD6C13 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7FD1A62B0F377E00CD6C13 /* MyTableViewCell.swift */; };
 		7D85FC8F2B172CA100A88370 /* WithoutDeviceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85FC8E2B172CA100A88370 /* WithoutDeviceTestViewController.swift */; };
 		7D85FC922B1757CF00A88370 /* UIViewUIStackViewPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85FC912B1757CF00A88370 /* UIViewUIStackViewPracticeViewController.swift */; };
+		7D85FC942B19F98C00A88370 /* NumberButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D85FC932B19F98C00A88370 /* NumberButtonCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7D7FD1A62B0F377E00CD6C13 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		7D85FC8E2B172CA100A88370 /* WithoutDeviceTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutDeviceTestViewController.swift; sourceTree = "<group>"; };
 		7D85FC912B1757CF00A88370 /* UIViewUIStackViewPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewUIStackViewPracticeViewController.swift; sourceTree = "<group>"; };
+		7D85FC932B19F98C00A88370 /* NumberButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7D85FC8E2B172CA100A88370 /* WithoutDeviceTestViewController.swift */,
+				7D85FC932B19F98C00A88370 /* NumberButtonCollectionViewCell.swift */,
 			);
 			name = WithoutDeviceTest;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				7D7FD1952B04940C00CD6C13 /* ViewController.swift in Sources */,
 				7D7FD1912B04940C00CD6C13 /* AppDelegate.swift in Sources */,
 				7D7FD1A52B0F226D00CD6C13 /* LandingViewController.swift in Sources */,
+				7D85FC942B19F98C00A88370 /* NumberButtonCollectionViewCell.swift in Sources */,
 				7D85FC922B1757CF00A88370 /* UIViewUIStackViewPracticeViewController.swift in Sources */,
 				7D85FC8F2B172CA100A88370 /* WithoutDeviceTestViewController.swift in Sources */,
 				7D7FD1A72B0F377E00CD6C13 /* MyTableViewCell.swift in Sources */,
@@ -343,6 +347,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
